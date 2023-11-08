@@ -45,13 +45,8 @@ Para usar <api-restfull-backend>, siga estas etapas:
 
 Após feito isso, abra o postman e chame as seguintes URL's:
 
-Esta URL vai chamar com intervalo mais curto
+Esta URL vai chamar com intervalo de prêmios
 ```
-http://localhost:3333/with-shortest-gap
-```
-
-Esta URL vai chamar com intervalo mais longo
-```
-http://localhost:3333/with-longest-gap
+http://localhost:3333/get-interval-data
 ```
 

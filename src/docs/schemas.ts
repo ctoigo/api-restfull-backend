@@ -1,13 +1,7 @@
-import {
-  errorSchema,
-  successSchema,
-  withLongestGapSchema,
-  withShortestGapSchema,
-} from './schemas/';
+import { errorSchema, successSchema, getIntervalDataSchema } from './schemas/';
 
 export default {
   error: errorSchema,
   success: successSchema,
-  withLongestGap: withLongestGapSchema,
-  withShortestGap: withShortestGapSchema,
+  getIntervalData: getIntervalDataSchema,
 };

@@ -1,6 +1,5 @@
-import { withLongestGapPath, withShortestGapPath } from './paths/';
+import { getIntervalDataPath } from './paths/';
 
 export default {
-  '/with-longest-gap': withLongestGapPath,
-  '/with-shortest-gap': withShortestGapPath,
+  '/get-interval-data': getIntervalDataPath,
 };

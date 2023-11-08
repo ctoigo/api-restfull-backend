@@ -1,4 +1,3 @@
-import WithLongestGapRoute from './withLongestGapRoute';
-import WithShortestGapRoute from './withShortestGapRoute';
+import GetIntervalDataRoute from './getIntervalDataRoute';
 
-export { WithLongestGapRoute, WithShortestGapRoute };
+export { GetIntervalDataRoute };

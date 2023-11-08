@@ -1,7 +1,7 @@
-export const withShortestGapPath = {
+export const getIntervalDataPath = {
   get: {
     tags: ['API'],
-    summary: 'API para ler o banco com intervalo mais curto',
+    summary: 'API para ler o banco com intervalo de prêmios',
     description: 'Essa rota pode ser executada por **qualquer usuário**',
     responses: {
       200: {
@@ -9,7 +9,7 @@ export const withShortestGapPath = {
         content: {
           'application/json': {
             schema: {
-              $ref: '#/schemas/withShortestGap',
+              $ref: '#/schemas/getIntervalData',
             },
           },
         },

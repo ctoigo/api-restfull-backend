@@ -1,2 +1,1 @@
-export * from './withLongestGapController';
-export * from './withShortestGapController';
+export * from './getIntervalDataController';

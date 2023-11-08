@@ -1,11 +1,10 @@
 import authMiddleware from '@/middleware/auth';
 import { Router } from 'express';
-import { WithLongestGapRoute, WithShortestGapRoute } from './Producer';
+import { GetIntervalDataRoute } from './Producer';
 
 const routes = Router();
 
-routes.get('/with-longest-gap', WithLongestGapRoute.select);
-routes.get('/with-shortest-gap', WithShortestGapRoute.select);
+routes.get('/get-interval-data', GetIntervalDataRoute.select);
 
 routes.use(authMiddleware);
 
